@@ -1,4 +1,4 @@
-package CalculadoraV3;
+package CalculadoraV4;
 
 import java.util.Scanner;
 
@@ -8,6 +8,7 @@ public class EntradaSaida {
 
         System.out.print("Informe o " + ordem + " número: ");
         return sc.nextDouble();
+
     }
 
     public static int solicitaOperacao(){
