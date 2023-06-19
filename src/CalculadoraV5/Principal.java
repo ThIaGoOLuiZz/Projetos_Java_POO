@@ -28,7 +28,7 @@ public class Principal {
                     soma.setNum1(num1);
                     soma.setNum2(num2);
 
-                    resultado = soma.calculaSoma();
+                    resultado = soma.calcula();
                     break;
 
                 case 2:
@@ -37,7 +37,7 @@ public class Principal {
                     sub.setNum1(num1);
                     sub.setNum2(num2);
 
-                    resultado = sub.calculaSubtracao();
+                    resultado = sub.calcula();
                     break;
 
                 case 3:
@@ -46,7 +46,7 @@ public class Principal {
                     multi.setNum1(num1);
                     multi.setNum2(num2);
 
-                    resultado = multi.calculaMultiplicacao();
+                    resultado = multi.calcula();
                     break;
 
                 case 4:
@@ -59,7 +59,7 @@ public class Principal {
                     divi.setNum1(num1);
                     divi.setNum2(num2);
 
-                    resultado = divi.calculaDivisao();
+                    resultado = divi.calcula();
                     break;
 
                 default:
